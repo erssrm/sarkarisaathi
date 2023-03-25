@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "test": "cypress open",
-    "cypress:run": "cypress run --record --key a68144c0-3bb9-45eb-b923-b297e2eb22a5"
+    "cypress:run": "cypress run --record --key a68144c0-3bb9-45eb-b923-b297e2eb22a5",
+    "ci": "start-server-and-test start 3000 'cypress run'"
   },
   "dependencies": {
     "@emotion/react": "^11.10.6",
@@ -28,6 +29,7 @@
     "cypress": "^12.8.1",
     "eslint": "7.32.0",
     "eslint-config-custom": "workspace:*",
+    "start-server-and-test": "^2.0.0",
     "tsconfig": "workspace:*",
     "typescript": "^4.5.3"
   }
