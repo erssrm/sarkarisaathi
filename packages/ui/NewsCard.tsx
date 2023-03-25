@@ -11,7 +11,7 @@ import { Box, Grid, Paper } from '@mui/material';
 export const NewsCard = () => {
   return (
     <Box>
-      <Card sx={{backgroundColor: '#4caf50'}}>
+      <Card sx={{backgroundColor: '#FFFFFF'}}>
         <Grid container spacing={1}>
           <Grid item xs={4}>
             <CardContent>
