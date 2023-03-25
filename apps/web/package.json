@@ -11,6 +11,10 @@
     "cypress:run": "cypress run --record --key a68144c0-3bb9-45eb-b923-b297e2eb22a5"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/icons-material": "^5.11.11",
+    "@mui/material": "^5.11.14",
     "next": "^13.1.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
