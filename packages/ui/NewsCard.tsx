@@ -34,10 +34,6 @@ export const NewsCard = () => {
           </Grid>
         </Grid>
       </Card>
-
-
-
-
       <Paper elevation={4} />
     </Box>
 
