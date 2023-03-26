@@ -25,12 +25,6 @@
         "build"
       ],
       "outputs": []
-    },
-    "ci": {
-      "dependsOn": [
-        "build"
-      ],
-      "outputs": []
     }
   }
 }
