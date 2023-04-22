@@ -1,11 +1,10 @@
-import { createTheme, ThemeProvider } from "@mui/material";
-import { AppContainer } from "../components/Container";
-
+import { createTheme, ThemeProvider } from '@mui/material';
+import { AppContainer } from '../components/Container';
 
 const themeLight = createTheme({
   palette: {
     background: {
-      default: "#C0C0C0"
+      default: '#C0C0C0'
     }
   }
 });

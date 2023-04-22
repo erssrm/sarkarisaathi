@@ -1,0 +1,10 @@
+{
+  "files.autoSave": "off",
+  "editor.formatOnSave": true,
+  "editor.fontFamily": "Fira Code SemiBold, Consolas, 'Courier New', monospace",
+  "workbench.colorTheme": "Monokai Vibrant",
+  "workbench.iconTheme": "vscode-icons",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.requireConfig": true,
+  "prettier.configPath": "./.prettierrc"
+}
