@@ -7,11 +7,10 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import { Box, Grid, Paper } from '@mui/material';
 
-
 export const NewsCard = () => {
   return (
     <Box>
-      <Card sx={{backgroundColor: '#FFFFFF'}}>
+      <Card sx={{ backgroundColor: '#FFFFFF' }}>
         <Grid container spacing={1}>
           <Grid item xs={4}>
             <CardContent>
@@ -24,7 +23,10 @@ export const NewsCard = () => {
                 Pradhan Mantri Jan Dhan Yojana (PMJDY)
               </Typography>
               <Typography variant="body2" color="text.secondary">
-                Pradhan Mantri Jan Dhan Yojana (PMJDY) is a financial inclusion scheme launched by the Indian government in August 2014. The scheme aims to provide financial services to the unbanked and underbanked population of India. Here are some details about the scheme:
+                Pradhan Mantri Jan Dhan Yojana (PMJDY) is a financial inclusion scheme launched by
+                the Indian government in August 2014. The scheme aims to provide financial services
+                to the unbanked and underbanked population of India. Here are some details about the
+                scheme:
               </Typography>
             </CardContent>
             <CardActions>
@@ -36,6 +38,5 @@ export const NewsCard = () => {
       </Card>
       <Paper elevation={4} />
     </Box>
-
   );
-}
+};
